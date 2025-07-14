@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  --dark-blue-50: 239, 240, 251;
+  --dark-blue-100: 214, 217, 244;
+  --dark-blue-200: 175, 182, 234;
+  --dark-blue-300: 140, 152, 225;
+  --dark-blue-400: 106, 124, 215;
+  --dark-blue-500: 73, 97, 203;
+  --dark-blue-600: 56, 76, 162;
+  --dark-blue-700: 41, 57, 124;
+  --dark-blue-800: 27, 39, 88;
+  --dark-blue-900: 14, 22, 56;
+  --dark-blue-950: 8, 15, 42;
+
+  --athens-gray-50: 236, 236, 239;
+  --athens-gray-100: 229, 229, 233;
+  --athens-gray-200: 209, 209, 216;
+  --athens-gray-300: 185, 185, 197;
+  --athens-gray-400: 160, 160, 176;
+  --athens-gray-500: 133, 133, 153;
+  --athens-gray-600: 106, 106, 129;
+  --athens-gray-700: 79, 79, 104;
+  --athens-gray-800: 53, 53, 72;
+  --athens-gray-900: 29, 29, 40;
+  --athens-gray-950: 16, 16, 24;
+}
+
+@theme {
+  --font-sans: "Satoshi", sans-serif;
+
+  --color-dark-blue-50: rgb(var(--dark-blue-50));
+  --color-dark-blue-100: rgb(var(--dark-blue-100));
+  --color-dark-blue-200: rgb(var(--dark-blue-200));
+  --color-dark-blue-300: rgb(var(--dark-blue-300));
+  --color-dark-blue-400: rgb(var(--dark-blue-400));
+  --color-dark-blue-500: rgb(var(--dark-blue-500));
+  --color-dark-blue-600: rgb(var(--dark-blue-600));
+  --color-dark-blue-700: rgb(var(--dark-blue-700));
+  --color-dark-blue-800: rgb(var(--dark-blue-800));
+  --color-dark-blue-900: rgb(var(--dark-blue-900));
+  --color-dark-blue-950: rgb(var(--dark-blue-950));
+
+  --color-gray-50: rgb(var(--athens-gray-50));
+  --color-gray-100: rgb(var(--athens-gray-100));
+  --color-gray-200: rgb(var(--athens-gray-200));
+  --color-gray-300: rgb(var(--athens-gray-300));
+  --color-gray-400: rgb(var(--athens-gray-400));
+  --color-gray-500: rgb(var(--athens-gray-500));
+  --color-gray-600: rgb(var(--athens-gray-600));
+  --color-gray-700: rgb(var(--athens-gray-700));
+  --color-gray-800: rgb(var(--athens-gray-800));
+  --color-gray-900: rgb(var(--athens-gray-900));
+  --color-gray-950: rgb(var(--athens-gray-950));
+}
+
+@layer base {
+  body {
+    background-color: var(--color-gray-50);
+    color: var(--color-gray-700);
+  }
+}
