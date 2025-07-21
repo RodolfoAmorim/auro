@@ -17,7 +17,7 @@ export function Sidebar() {
 
 				<button
 					type='button'
-					className='size-9 flex items-center justify-center bg-gray-200 text-gray-800 rounded-full'
+					className='size-9 flex items-center justify-center bg-gray-200 text-gray-800 rounded-full cursor-pointer border border-transparent hover:border-gray-300 transition-colors'
 				>
 					<PlusIcon className='size-4' />
 				</button>
@@ -26,7 +26,7 @@ export function Sidebar() {
 			<div className='h-12 mb-6'>
 				<button
 					type='button'
-					className='size-12 flex items-center justify-center bg-gray-200 text-gray-800 rounded-full'
+					className='size-12 flex items-center justify-center bg-gray-200 text-gray-800 rounded-full cursor-pointer border border-transparent hover:border-gray-300 transition-colors'
 				>
 					<Cog6ToothIcon className='size-6' />
 				</button>
